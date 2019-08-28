@@ -1,5 +1,5 @@
 {
-  "name": "JsonBird",
+  "name": "qzroc",
   "version": "1.4.0",
   "description": "A remote data interface proxy service",
   "author": {
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/srocteam/JsonBird.git"
   },
   "keywords": [
-    "JsonBird",
+    "qzroc",
     "proxy",
     "data interface proxy",
     "remote data interface proxy"

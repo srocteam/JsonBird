@@ -9,7 +9,7 @@
 
 ## `v1`代理接口：
 - 请求方式：`GET/POST`
-- 请求地址：https://bird.ioliu.cn/v1
+- 请求地址：http://qzroc.com:1000/v1
 - 返回值类型：`json/jsonp`  
 
 |名称|类型|必须|说明|  
@@ -19,7 +19,7 @@
 
 ## `ip`地址查询接口
 - 请求方式：`GET/POST`
-- 请求地址：https://bird.ioliu.cn/ip
+- 请求地址：http://qzroc.com:1000/ip
 - 返回值类型：`json/jsonp/xml`
 
 |名称|类型|必须|说明|  
@@ -30,10 +30,10 @@
 
 ## `joke`笑话接口
 - 请求方式：`GET/POST`
-- 趣图地址: https://bird.ioliu.cn/joke/
-- 笑话地址: https://bird.ioliu.cn/joke/?type=text
-- 随机趣图: https://bird.ioliu.cn/joke/rand
-- 随机笑话: https://bird.ioliu.cn/joke/rand?type=text
+- 趣图地址: http://qzroc.com:1000/joke/
+- 笑话地址: http://qzroc.com:1000/joke/?type=text
+- 随机趣图: http://qzroc.com:1000/joke/rand
+- 随机笑话: http://qzroc.com:1000/joke/rand?type=text
 - 返回值类型：`json/jsonp`
 
 > ⚠️ 若`sort`存在，则`time`必须同时存在  
@@ -50,7 +50,7 @@
 
 ## `mobile`手机号码接口
 - 请求方式：`GET/POST`
-- 请求地址：https://bird.ioliu.cn/mobile
+- 请求地址：http://qzroc.com:1000/mobile
 - 返回值类型：`json/jsonp/xml`
 
 |名称|类型|必须|说明|  
@@ -61,8 +61,8 @@
 
 ## `netease`网易云音乐接口
 - 请求方式：`GET`
-- 歌曲接口：https://bird.ioliu.cn/netease?id=222222
-- 歌单接口：https://bird.ioliu.cn/netease?playlist_id=222222
+- 歌曲接口：http://qzroc.com:1000/netease?id=222222
+- 歌单接口：http://qzroc.com:1000/netease?playlist_id=222222
 - 返回值类型：`json/jsonp`
 
 |名称|类型|必须|说明|  
@@ -72,7 +72,7 @@
 
 ## `weather`天气查询接口
 - 请求方式：`GET/POST`
-- 请求地址：https://bird.ioliu.cn/weather
+- 请求地址：http://qzroc.com:1000/weather
 - 返回值类型：`json/jsonp/xml`
 
 |名称|类型|必须|说明|  

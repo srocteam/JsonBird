@@ -1,4 +1,4 @@
-# JsonBird :hatching_chick:
+# qzroc :hatching_chick:
 A remote data interface proxy service | 一个远程数据接口代理服务
 
 
@@ -9,7 +9,7 @@ A remote data interface proxy service | 一个远程数据接口代理服务
 [![license:MIT](https://img.shields.io/badge/license-MIT-blue.svg)](/License)
 [![releases:v1.4.2](https://img.shields.io/badge/releases-v1.4.2-blue.svg)](https://github.com/srocteam/JsonBird/releases)
 
-**[HomePage](https://bird.ioliu.cn)** | [Demo](https://jsfiddle.net/LNing/duL5Lby7/)
+**[HomePage](https://qzroc.com:1000)** | [Demo](https://jsfiddle.net/LNing/duL5Lby7/)
 
 ## 必要条件
 - [Node.js](https://nodejs.org) 0.10+
@@ -27,7 +27,7 @@ $ npm start
 ```
 
 ## 快速开始
- 1. https://bird.ioliu.cn/v1?url=http[s]://YouWantProxyJSONUrls.com&[?]params1=val1&params2=val2[&callback=fn]
+ 1. http://qzroc.com:1000/v1?url=http[s]://YouWantProxyJSONUrls.com&[?]params1=val1&params2=val2[&callback=fn]
  2. [详细使用方法请点此](https://github.com/srocteam/JsonBird/wiki)
 
 ## 我们能做到

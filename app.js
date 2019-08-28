@@ -14,7 +14,7 @@ var logUtils = require('./utils/logUtils');
 var ip = require('./routes/ip');
 //网易云音乐
 var netease = require('./routes/netease');
-//JsonBird version 1.0
+//qzroc version 1.0
 var v1 = require('./routes/v1');
 var v2 = require('./routes/v2');
 //笑话接口
