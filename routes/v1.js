@@ -32,7 +32,7 @@ function getJSON(req, res, next) {
     };
     if (disabledIP.indexOf(ip) > -1) {
 
-        output['data']['info'] = '很抱歉，您的IP因为滥用接口已被禁用，如有疑问，请致信 xioveliu@gmail.com ';
+        output['data']['info'] = '很抱歉，您的IP因为滥用接口已被禁用，如有疑问，请致信 admin@qzroc.com ';
         output['status'] = -1;
         output['message'] = 'DISABLED IP';
         res.json(output);

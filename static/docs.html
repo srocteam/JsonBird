@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>接口文档 | JsonBird - 业界领先的远程数据接口代理服务</title>
+    <title>接口文档 | JsonBird - 远程数据接口代理服务</title>
     <link rel="stylesheet" href="./css/main.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="author" content="xCss xioveliu@gmail.com">
+    <meta name="author" content="srocteam admin@qzroc.com">
     <meta name="keywords" content="JsonBird,数据代理服务,数据接口代理,远程数据接口代理,远程接口,代理服务,A Remote Data Interface Proxy Service,CORS,HTTPS解决方案">
     <meta name="description" content="业界领先的远程数据接口代理服务">
     <link rel="shortcut icon" href="./images/favicon.ico">
@@ -25,7 +25,7 @@
         $(function() {
             $.get('/docs.md', function(data, status) {
                 //var md = Base64.decode(data.content);
-                var html = status === 'success' ? marked(data) : marked('(ノへ￣、) 文档君不小心走丢了。\n\r很抱歉，由于`Github`仓库请求失败，我们暂时不能获取到相关的文档信息。\n\r 您可以直接用浏览器访问 https://github.com/xCss/JsonBird/wiki ');
+                var html = status === 'success' ? marked(data) : marked('(ノへ￣、) 文档君不小心走丢了。\n\r很抱歉，由于`Github`仓库请求失败，我们暂时不能获取到相关的文档信息。\n\r 您可以直接用浏览器访问 https://github.com/srocteam/JsonBird/wiki ');
                 $('#docs .inner').html(html);
             });
         });
@@ -102,7 +102,7 @@
                 <a href="https://jsfiddle.net/LNing/duL5Lby7/" target="_blank">示例</a>
                 <a href="/#interface">数据接口</a>
                 <a href="/docs.html">接口文档</a>
-                <a href="https://github.com/xCss/JsonBird" target="_blank">Github</a>
+                <a href="https://github.com/srocteam/JsonBird" target="_blank">Github</a>
             </nav>
             <a class="navPanelToggle" href="#navPanel"><span class="fa fa-bars"></span></a>
         </div>
